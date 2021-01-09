@@ -2,6 +2,8 @@
 EE113DB - UCLA: electrical engineering digital signal processing design
 handwritten text to speech using deep learning
 
+2-person team with Brian Tehrani.
+
 Used deep learning to perform optical character recognition on two datasets of increasing difficulty as the capstone project for my B.S. in EE at UCLA.
 
 First the MNIST and then a handwritten names dataset. MNIST was just handwritten digits, the handwritten names dataset had non-cursive names written using all alphabetic characters and required segmentation based on 2-d histograms before chunked images of characters into the deep neural network for classification. Used python to convert final model output to speech using system calls.
